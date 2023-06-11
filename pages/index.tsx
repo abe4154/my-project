@@ -22,7 +22,7 @@ export default function Home({ articles }: Props) {
             />
             <div className="px-6 py-4">
               <Link href={`/article/${article.id}`} passHref>
-                <a>{article.title}</a>
+                <span>{article.title}</span>
               </Link>
             </div>
             <div className="px-6 pt-4 pb-2">
